@@ -6,7 +6,7 @@ int result(int n)
   else if (n % 2 == 0) 
        return (result(n/2)+1); 
   else
-       return (1+Math.min(result(n - 1),result(n + 1))); 
+       return (1+Math.min(result(n-1),result(n+1))); 
 } 
 public static void main(String args[]) 
 {  Scanner sc=new Scanner(System.in);
